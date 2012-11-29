@@ -1,7 +1,7 @@
 AndroidRatesAPISample
 =====================
 
-Simple android app that hits the new OANDA API for rates
+Simple android app that hits the OANDA REST API for currency rates
 
 ## Installation guide
 
