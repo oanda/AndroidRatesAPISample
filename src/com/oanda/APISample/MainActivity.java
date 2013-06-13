@@ -87,7 +87,7 @@ public class MainActivity extends Activity {
 
     public class GetInstrumentPriceTask extends
             AsyncTask<Void, Void, JSONArray> {
-        String urlString = baseURLString + "v1/instruments/price?instruments=";
+        String urlString = baseURLString + "v1/quote?instruments=";
         String pair;
 
         public GetInstrumentPriceTask(List<String> pairs) {
