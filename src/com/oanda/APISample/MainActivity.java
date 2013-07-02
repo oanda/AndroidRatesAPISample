@@ -93,7 +93,7 @@ public class MainActivity extends Activity {
         public GetInstrumentPriceTask(List<String> pairs) {
             StringBuffer buffer = new StringBuffer();
             for (String pair : pairs) {
-                buffer.append(pair).append(",");
+                buffer.append(pair).append("%2C");
             }
             urlString += buffer.toString();
         }
