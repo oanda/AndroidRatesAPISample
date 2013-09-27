@@ -91,12 +91,19 @@ public class MainActivity extends Activity {
         String pair;
 
         public GetInstrumentPriceTask(List<String> pairs) {
+ 
+/*
+Commented out because instruments returns invalid pairs for quote (fix in progress)
             StringBuffer buffer = new StringBuffer();
             for (String pair : pairs) {
-                buffer.append(pair).append(",");
+                buffer.append(pair).append("%2C");
             }
             urlString += buffer.toString();
+*/
+            urlString += "EUR_USD%2CEUR_CAD%2CUSD_CAD%2CUSD_JPY%2CEUR_GBP%2CCAD_JPY%2CGBP_USD%2CGBP_CAD"
         }
+
+
 
         @Override
         protected JSONArray doInBackground(Void... arg0) {
