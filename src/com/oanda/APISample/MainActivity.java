@@ -100,7 +100,7 @@ Commented out because instruments returns invalid pairs for quote (fix in progre
             }
             urlString += buffer.toString();
 */
-            urlString += "EUR_USD%2CEUR_CAD%2CUSD_CAD%2CUSD_JPY%2CEUR_GBP%2CCAD_JPY%2CGBP_USD%2CGBP_CAD"
+            urlString += "EUR_USD%2CEUR_CAD%2CUSD_CAD%2CUSD_JPY%2CEUR_GBP%2CCAD_JPY%2CGBP_USD%2CGBP_CAD";
         }
 
 
